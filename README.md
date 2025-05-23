@@ -1,12 +1,19 @@
-# Project Name
-This project is ________. (Describe the main goals of the project. Limit to 1-2 sentences)
+# AI Tools Interest Analysis
 
-## Description
-Optional section to provide a more detailed overview of the project.
+This project analyzes trends in interest for various AI tools (e.g., ChatGPT, Gemini, Microsoft Copilot) using a dataset of weekly interest levels.
 
-## Get Started
-This section should be used to summarize the project and how to get started after cloning. Once this section 
-is edited, it will show up on the Project Dashboard tab. 
+## Dataset
 
-If you completely delete this section, the "Get Started" widget will be removed from the Project Dashboard.
+The dataset (`ai_tools_comparison.csv`) is assumed to contain weekly interest metrics for multiple AI tools, with a `week` column and one column per tool.
 
+## Questions Answered
+
+1. **Which AI tool has shown the most consistent growth?**
+2. **When did ChatGPT experience its largest decline in interest?**
+3. **Which month had the highest average interest across all tools?**
+
+## How to Run
+
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
